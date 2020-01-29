@@ -49,3 +49,15 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01rem;
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+h1 {
+    font: 500 2rem 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+}
