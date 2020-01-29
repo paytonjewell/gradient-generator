@@ -3,19 +3,17 @@
 body {
     font-family: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
-    text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5em;
-    top: 15%;
+    letter-spacing: .5rem;
     background: linear-gradient(to right, rgb(181, 222, 255) , rgb(217, 152, 255)); /* Standard syntax */
 }
 
 body * {
-    padding: 1em;
+    padding: 1rem;
 }
 
 .random {
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 .main {
@@ -31,20 +29,20 @@ body * {
 }
 
 input {
-    height: 3em;
-    width: 3em;
-    padding: .1em;
+    height: 3rem;
+    width: 3rem;
+    padding: .1rem;
 }
 
 h1 {
-    font: 600 3em 'Raleway', sans-serif;
+    font: 600 3rem 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-transform: uppercase;
     letter-spacing: .5rem;
 }
 
 h3 {
-    font: 900 1em 'Raleway', sans-serif;
+    font: 900 1rem 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-transform: none;
     letter-spacing: 0.01rem;
