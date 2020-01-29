@@ -15,6 +15,10 @@ body > * {
     padding: 1em;
 }
 
+.random {
+    margin-top: 1em;
+}
+
 input {
     padding: 0.1em;
     height: 3em;
