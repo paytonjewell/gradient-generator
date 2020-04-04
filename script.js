@@ -1,8 +1,8 @@
-var css = document.querySelector("h3");
-var color1 = document.querySelector(".color1");
-var color2 = document.querySelector(".color2");
-var body = document.getElementById("gradient");
-var button = document.querySelector("button");
+const css = document.querySelector("h3");
+const color1 = document.querySelector(".color1");
+const color2 = document.querySelector(".color2");
+const body = document.getElementById("gradient");
+const button = document.querySelector("button");
 
 window.onload = setGradient;
 
@@ -14,7 +14,7 @@ function setGradient() {
 
 function randomRGB() {
 	var rgbValues = [];
-	for(var i = 0; i < 3; i++) {
+	for(let i = 0; i < 3; i++) {
 		rgbValues.push(Math.floor(Math.random() * 256));
 	}
 	return 'rgb(' + rgbValues[0] + ',' + rgbValues[1] + ',' + rgbValues[2] + ')';
