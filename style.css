@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    color: rgba(255,255,255,.7);
     text-transform: uppercase;
     letter-spacing: .5rem;
     background: linear-gradient(to right, rgb(181, 222, 255) , rgb(217, 152, 255)); /* Standard syntax */
@@ -38,7 +38,6 @@ input {
 
 h1 {
     font: 600 3rem 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
     text-transform: uppercase;
     letter-spacing: .5rem;
 }

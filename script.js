@@ -13,7 +13,7 @@ function setGradient() {
 }
 
 function randomRGB() {
-	var rgbValues = [];
+	let rgbValues = [];
 	for(let i = 0; i < 3; i++) {
 		rgbValues.push(Math.floor(Math.random() * 256));
 	}
