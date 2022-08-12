@@ -23,7 +23,21 @@ body * {
 }
 
 .random {
-    margin-top: 1rem;
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: all;
+    transition-duration: 300ms;
+}
+.random:hover{
+    background: linear-gradient(to right, rgb(146, 189, 224) , rgb(45, 107, 189));
+    border: none;
+}
+.random:focus{
+    outline: 2px solid rgb(45, 107, 189);
 }
 
 .inputs {
@@ -34,6 +48,7 @@ input {
     height: 3rem;
     width: 3rem;
     padding: .1rem;
+    cursor: pointer;
 }
 
 h1 {
